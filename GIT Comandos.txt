@@ -1,0 +1,22 @@
+Git init = para comenzar el git en la carpeta
+git status = ver el estado del git 
+git add = La version pasa al staging y se le cambia el status (track)
+git commit -m "" = enviar al repositorio con nota
+git log --oneline = ver todas las versionas y sus códigos (código pequeño)
+git checkout = pasar la version a anterior 
+git log = ve todas las versionas y el código largo del commit 
+git show = mostrar histórico de cambios entre las versiones
+git commit = OJO, sin comentario te va a pedir que ingreses (ESC, i, "Ingresar texto", Shift + zz)
+git add . = agregar todos los archivos editados
+git reset "codigo corto" --hard = cambia la version (también existe soft)
+git branch = Ver las ramas
+git branch "Nombre de la rama nueva" = Para crear una rama nueva
+
+git checkout "nombre de la rama"= para ir a la rama 
+git merge "Nombre de la rama que quieres traer" = juntar las ramas
+git commit -am "" = modifica solo una parte 
+--------------------------------------------------------------------------
+git remote -v =para ver hacian donde está mi repositorio
+git clone =clona tu repositorio
+git push = manda el commit al repositorio (git push origin desarrollo)
+git pull = me trae la ultima version de una rama determinada (git pull origin master)
